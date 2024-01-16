@@ -34,7 +34,7 @@ console.log(guestlist);
 // ^ MILESTONE - 1 Creo un array di oggetti con tutti gli studenti e i rispettivi voti,id 
 // ^ MILESTONE - 2 Stabilisco quali studenti hanno totalizzato un voto superiore a 70
 // ^ MILESTONE - 3 Stabilisco quali studenti hanno totalizzato un voto superiore a 70 e id superiore a 120
-// ^ MILESTONE - 4 Stampare in console infine un array con il nome di questi studenti tutto in maiuscolo
+// ^ MILESTONE - 4 Stampare in console infine un array con il nome degli studenti tutto in maiuscolo
 
 // ~ ================
 // ~      ARRAY
