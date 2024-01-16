@@ -57,7 +57,10 @@ const students = [
 const studentsOver70 = students.filter(({ grade }) => grade > 70); // DESTRUCTRING
 console.log(studentsOver70);
 
-const studentsOver70Id = students.filter(({ grade, id }) => grade > 70 && id > 120);
+const studentsOver70Id = students.filter(({ grade, id }) => grade > 70 && id > 120); // DESTRUCTRING
 console.log(studentsOver70Id);
+
+const namesToUppercase = students.map(({ name }) => name.toUpperCase()); // DESTRUCTRING
+console.log(namesToUppercase);
 
 
