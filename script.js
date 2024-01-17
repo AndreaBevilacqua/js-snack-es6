@@ -86,6 +86,14 @@ const bicycles = [
 const lightestBike = bicycles.reduce((lowWeightBike, mainBike) => mainBike.weight < lowWeightBike ? mainBike : lowWeightBike );
 console.log(lightestBike);
 
+// ^ ESERCIZIO 4
+
+// ^ MILESTONE - 1 Creo un array di oggetti con squadre di calcio con nome, punti fatti e falli subiti
+// ^ MILESTONE - 2 Genero numeri random sia per i punti fatti che per i falli subiti
+// ^ MILESTONE - 3 Infine attraverso il destructring creo un nuovo array con all'interno solo e falli subiti
+// ^ MILESTONE - 4 Stampo in console
+
+
 
 
 
