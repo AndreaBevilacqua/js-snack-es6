@@ -93,7 +93,16 @@ console.log(lightestBike);
 // ^ MILESTONE - 3 Infine attraverso il destructring creo un nuovo array con all'interno solo e falli subiti
 // ^ MILESTONE - 4 Stampo in console
 
+// ~ ================
+// ~      ARRAY
+// ~ ================
 
+const teams = [
+    { name: 'Milan', goals: 0, fouls: 0 },
+    { name: 'Vicenza', goals: 0, fouls: 0 },
+    { name: 'Inter', goals: 0, fouls: 0 },
+    { name: 'Juventus', goals: 0, fouls: 0 }
+]
 
 
 
