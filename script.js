@@ -122,7 +122,9 @@ const randomGoalsAndFouls = teams.map(team => ({
 
 console.log(randomGoalsAndFouls);
 
-
+// Creo il nuovo array
+const newArray = randomGoalsAndFouls.map(({ name, fouls }) => ({ name, fouls}));
+console.log(newArray);
 
 
 
