@@ -69,6 +69,18 @@ console.log(namesToUppercase);
 // ^ MILESTONE - 2 Determino quale bici ha il peso minore
 // ^ MILESTONE - 3 Stampo in console
 
+// ~ ================
+// ~      ARRAY
+// ~ ================
+
+const bicycles = [
+    { name: 'Pietro', weight: '12'},
+    { name: 'Angelo', weight: '20'},
+    { name: 'Mauro', weight: '15'},
+]
+
+
+
 
 
 
