@@ -109,10 +109,18 @@ const teams = [
 // ? ===============
 
 // Funzione per generare un numero da 1 a 10
-
 function getRandomNumber() {
     return Math.floor(Math.random() * 10) + 1;
 }
+
+// Aggiungo i numeri casuali nell'array 
+const randomGoalsAndFouls = teams.map(team => ({
+    name: team.name,
+    goals: getRandomNumber(),
+    fouls: getRandomNumber()
+}));
+
+console.log(randomGoalsAndFouls);
 
 
 
