@@ -104,6 +104,19 @@ const teams = [
     { name: 'Juventus', goals: 0, fouls: 0 }
 ]
 
+// ? ===============
+// ?   SVOLGIMENTO
+// ? ===============
+
+// Funzione per generare un numero da 1 a 10
+
+function getRandomNumber() {
+    return Math.floor(Math.random() * 10) + 1;
+}
+
+
+
+
 
 
 
