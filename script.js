@@ -79,6 +79,13 @@ const bicycles = [
     { name: 'Mauro', weight: '15'},
 ]
 
+// ? ===============
+// ?   SVOLGIMENTO
+// ? ===============
+
+const lightestBike = bicycles.reduce((lowWeightBike, mainBike) => mainBike.weight < lowWeightBike ? mainBike : lowWeightBike );
+console.log(lightestBike);
+
 
 
 
