@@ -63,4 +63,12 @@ console.log(studentsOver70Id);
 const namesToUppercase = students.map(({ name }) => name.toUpperCase()); // DESTRUCTRING
 console.log(namesToUppercase);
 
+// ^ ESERCIZIO 3
+
+// ^ MILESTONE - 1 Creo un array di oggetti con 3 bici con nome e peso
+// ^ MILESTONE - 2 Determino quale bici ha il peso minore
+// ^ MILESTONE - 3 Stampo in console
+
+
+
 
