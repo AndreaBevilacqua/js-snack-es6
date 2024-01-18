@@ -114,16 +114,15 @@ function getRandomNumber() {
 }
 
 // Aggiungo i numeri casuali nell'array 
-const randomGoalsAndFouls = teams.map(team => ({
-    name: team.name,
-    goals: getRandomNumber(),
-    fouls: getRandomNumber()
-}));
+teams.forEach(team => {
+    team.goals = getRandomNumber(),
+    team.fouls = getRandomNumber()
+})
 
-console.log(randomGoalsAndFouls);
+console.log(teams);
 
 // Creo il nuovo array
-const newArray = randomGoalsAndFouls.map(({ name, fouls }) => ({ name, fouls}));
+const newArray = teams.map(({ name, fouls }) => ({ name, fouls}));
 console.log(newArray);
 
 
